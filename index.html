@@ -41,6 +41,21 @@
 		.sherifFont{
 			font-family:Serif !important;
 		}
+		.deck-container .slide h3{
+			font-size: 2.5em;
+			color: #225266;
+		}
+		.deck-container .slide h2{
+			font-size: 3em;
+			color: #225266;
+		}
+
+		.deck-container .slide ul li h3{
+			font-size: 1.3em;
+			color: #225266;
+		}
+
+
 	</style>
 	<script src="js/jquery.js"></script>
 	<script src="js/modernizr.custom.js"></script>
@@ -51,10 +66,11 @@
 
 <!-- Begin slides -->
 <section class="slide" id="title-slide">	
-	<h1>Make Web Faster</h1>		
-	<h2 class="sherifFont">http://bit.ly/1atRHzH</h2>
+	<h2 style="font-size: 5em;">Make Web Faster</h2>
+		
+	<h3 class="sherifFont" style="text-align: center">http://bit.ly/1atRHzH</h3>
 	<br/>
-	<a href="http://jhankarmahbub.com">MD Khan</a> / <a href="http://twitter.com/mdkhan005">@mdkhan005</a>
+	<h4><a href="http://jhankarmahbub.com">MD Khan</a> / <a href="http://twitter.com/mdkhan005">@mdkhan005</a></h4>
 </section>
 <section class="slide" id="title-slide">
 	<img src="images/sleep.jpg">
@@ -110,30 +126,6 @@
 <section class="slide" id="title-slide">
 	<img src="images/thumbsdown.jpg">
 </section>
-<section class="slide" id="title-slide">
-	<img src="images/trouble.jpg">
-</section>
-<section class="slide" id="title-slide">
-	<h1>Best Practices</h1>	
-</section>
-<section class="slide" id="title-slide">
-	<img src="images/idiots.jpg">
-</section>
-<section class="slide" id="title-slide">
-	<img src="images/trouble1.jpg">	
-</section>
-<section class="slide" id="title-slide">
-	<h2>How fast websites</h2>	
-	<img src="images/pageLoadMobileAndDesktop.png">
-	<br/>
-	<br/>
-	<a href="http://analytics.blogspot.com/2012/04/global-site-speed-overview-how-fast-are.html">How Fast Are Websites Around The World?</a>
-</section>
-<section class="slide" id="title-slide">
-	<h3>Is Internet (network) slow?</h3>
-	<h3 class="slide">or Something Else?</h3>	
-	<img src="http://www.ideachampions.com/weblogs/WHY.jpg">		
-</section>
 
 <section class="slide" id="title-slide">	
 	<img class="largeImage" src="images/content/golden-top10.png">	
@@ -144,6 +136,10 @@
 	<img src="images/content/golden-9990.png">
 	<h1>Medium</h1>		
 	<a class=" refName" href="http://www.stevesouders.com/blog/2012/02/10/the-performance-golden-rule/">www.stevesouders.com</a>
+</section>
+
+<section class="slide" id="title-slide">
+	<img src="images/trouble.jpg">
 </section>
 
 <section class="slide" id="title-slide">	
@@ -188,27 +184,51 @@
 	<img src="images/ambulence.jpg">
 	</div>	
 </section>
-
 <section class="slide" id="title-slide">		
 	<img class="mediumImage" src="images/PageLoadBenchMark.png">
 	<br/>
 	<a class="refName" href="http://www.nngroup.com/articles/response-times-3-important-limits/">Response Time: Important Limits (Nielsen Norman Group)</a>
 </section>
-
 <section class="slide" id="title-slide">
-	<img class="largeImage" src="images/TransferSize.png">
+	<h2>How fast websites</h2>	
+	<img src="images/pageLoadMobileAndDesktop.png">
+	<br/>
+	<br/>
+	<a href="http://analytics.blogspot.com/2012/04/global-site-speed-overview-how-fast-are.html">How Fast Are Websites Around The World?</a>
+</section>
+
+<section class="slide" id="core-feature">
+	<h1>Best Practices</h1>	
+	<h3 class="slide" style="color: red;">Killing us</h2>
+</section>
+<section class="slide" id="title-slide">
+	<img src="images/idiots.jpg">
+</section>
+<section class="slide" id="title-slide">
+	<img src="images/trouble1.jpg">	
 </section>
 
 
+<section class="slide" id="title-slide">
+	<h1>Are we Improving?</h1>
+</section>
 
-
+<section class="slide" id="title-slide">
+	<img class="largeImage" src="images/TransferSize.png">
+	<a class=" refName" href="http://httparchive.org/interesting.php">httparchive.org</a>
+</section>
 <section class="slide" id="core-feature">
-	<h2>How are we getting stuffs!</h2>
+	
 	<img src="images/lifeOfARequest.png">
 	<br/>
 	<a href="http://www.igvita.com/posa/high-performance-networking-in-google-chrome/#resource-request"> Life of a Request over wire</a>
 	<br/>
 	<a href="http://www.w3.org/TR/navigation-timing/">Navigation Timing</a>
+</section>
+
+<section class="slide" id="title-slide">
+	<h3>Internet (network) slow?</h3>	
+	<img src="http://www.ideachampions.com/weblogs/WHY.jpg">	
 </section>
 
 <section class="slide" id="title-slide">		
@@ -225,19 +245,16 @@
 <section class="slide" id="title-slide">		
 	<img src="images/RadioAccess.jpg">	
 </section>
-<section class="slide" id="title-slide">		
+<!-- <section class="slide" id="title-slide">		
 	<img src="images/LifeOfWebRequest.jpg">	
 </section>
 
-
+ -->
 <section class="slide" id="title-slide">	
-	<h1>What makes a website</h1>			
+	<h1>What makes a website?</h1>			
 </section>
 <section class="slide" id="title-slide">	
-	
 	<img src="images/content.png">
-	
-	<h1>Content?</h1>		
 	<a class=" refName" href="http://httparchive.org/interesting.php">httparchive.org</a>
 </section>
 <!--
@@ -255,13 +272,13 @@
 
 <section class="slide" id="title-slide">
 	<img src="images/content.png">
-	<h1>Image (61.01%)!!!</h1>		
+	<h2>Image (61.01%)!!!</h2>		
 </section> 
 
 <section class="slide" id="title-slide">
-	<h1>PNG vs JPEG</h1>
+	<h2>PNG vs JPEG</h2>
 	<img src="images/imageFormat.png"/>
-<a href="http://www.killersites.com/articles_2005/theory/images-in-webpages.php">When to use JPEG or PNG</a>
+
 </section>
 
 <section class="slide" id="core-feature">	
@@ -281,6 +298,9 @@
 		</li>
 	</ul>
 <a class=" refName" href="http://www.ransen.com/articles/Formats/Image-Formats.htm">Choose right image format</a>	
+
+<br/>
+<a href="http://www.killersites.com/articles_2005/theory/images-in-webpages.php">When to use JPEG or PNG</a>
 </section>
 
 <section class="slide" id="core-feature">
@@ -344,7 +364,6 @@
 	
 	<img src="images/compressionTest/Summary.png">
 	
-	<h1>Compression</h1>	
 	<br/>
 	<br/>
 	<a href="http://addyosmani.com/blog/image-optimization-tools/">Addy Osmani: Image Optimization</a>
@@ -382,19 +401,15 @@
 	<a href ="http://writegoodcode.com/#idea">Sprite improvement: writegoodcode.com </a><br/>
 </section>
 <section class="slide" id="core-feature">
-	<h2>How Sprite Works</h2>			
+	
 	<img src="images/sprites/spriteBeforeClick.png"></img>	
 </section>
 <section class="slide" id="core-feature">
-	<h2>How Sprite Works</h2>			
+	
 	<img src="images/sprites/spriteAfterClick.png"></img>
 </section>
 <section class="slide" id="core-feature">
 	<h1>Sprite (Tools)</h1>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
 	<br/>
 	<br/>
 	<a href="http://spritepad.wearekiss.com/">Sprite pad</h3>
@@ -456,15 +471,15 @@
 	<h2>CDN Test</h2>		
 	<img src="images/CDNServer.png"></img>
 	
-	<a class=" refName" href="http://blog.netdna.com/maxcdn/how-to-achieve-a-2-second-page-load-with-a-magento-ecommerce-store/">NetDNA.com</a>
+	<a class=" refName" href="http://blog.netdna.com/maxcdn/how-to-achieve-a-2-second-page-load-with-a-magento-ecommerce-store/">Achieve 2s Page Load</a>
 </section>
 
 
 <section class="slide" id="core-feature">
 	<h2>Distributed DNS Provider</h2>
 	<img src="images/DNSServer.png"></img>
-	<a class=" refName" href="http://blog.netdna.com/maxcdn/how-to-achieve-a-2-second-page-load-with-a-magento-ecommerce-store/">NetDNA.com</a>
-	<br/>
+	<a class=" refName" href="http://developer.yahoo.com/blogs/ydn/high-performance-sites-rule-9-reduce-dns-lookups-7207.html">Cache DNS lookup</a>
+	
 	<br/>
 	<a href="http://pcsupport.about.com/od/tipstricks/a/free-public-dns-servers.htm">List of Free DNS Service Provider</a>
 	<br/>
@@ -477,7 +492,7 @@
 </section>
 <section class="slide" id="core-feature">		
 	<h1>4.JAIL</h1>	
-	<h3> Jquery asynchronous image loader</h3>	
+	<h3> Jquery Asynchronous Image Loader</h3>	
 	<br/>
 	<a href="https://github.com/sebarmeli/JAIL">Jail</a>
 	<br/>
@@ -487,13 +502,13 @@
 </section>
 
 <section class="slide" id="title-slide">		
-	<h1>Lazy load benefits</h1>		
+	<h2>Lazy load benefits</h2>		
 	<img src="images/lazyLoad.png"></img>
 <a href="http://engineering.slideshare.net/2011/03/faster-page-loads-with-image-lazy-loading/">Slide share: Lazy loading benefit</a>
 </section>
 <section class="slide" id="title-slide">
 	<h1>5. Font Icon</h1>		
-	<a href="http://astronautweb.co/snippet/font-awesome/">Click: Astronaut web.co</a>
+	<a href="http://astronautweb.co/snippet/font-awesome/">Click: Font Awesome</a>
 	<br/>
 	<a href="http://css-tricks.com/examples/IconFont/">CSS Trics: Icon Font </a>
 	<br/>
@@ -560,15 +575,15 @@
 	
 </section>
 <section class="slide" id="title-slide">
-	<h1>Load Images through Css</h1>
+	<h2>Load Images through Css</h2>
 	<a href="http://mobile.smashingmagazine.com/2013/04/03/build-fast-loading-mobile-website/">fast loading mobile website</a>
 </section>
 <section class="slide" id="title-slide">		
-	<h1>Use CSS 3 instead of Image</h1>
+	<h2>Use CSS 3 instead of Image</h2>
 	<ul>
-		<li>Drop shadow</li>
-		<li>gradient fill</li>
-		<li>Add more to this list</li>
+		<li><h3>Drop shadow</h3></li>
+		<li><h3>gradient fill</h3></li>
+		<li><h3>Add more to this list</h3></li>
 	</ul>	
 </section>
 <section class="slide" id="title-slide">		
@@ -577,7 +592,8 @@
 	<a href="http://bbinto.wordpress.com/2013/05/02/performance-check-the-weight-of-cbcs-logo-as-pure-css-data-uri-and-simple-png/">Be Better & Faster</a>
 </section>
 <section class="slide" id="title-slide">		
-	<h1>11. Inline Scalable Vector Graphics (SVG)</h1>	
+	<h2>11. Inline Scalable Vector Graphics</h2>
+	<h1>SVG</h1>	
 	<a href="http://www.mobify.com/blog/data-uris-are-slow-on-mobile/">Data URI vs Inline</a>	
 </section>
 
@@ -587,7 +603,7 @@
 </section>
 <section class="slide" id="title-slide">
 	<img src="images/content.png"></img>
-	<h1>Scripts + Styles (19.2%)</h1>		
+	<h2>Scripts + Styles (19.2%)</h2>		
 	
 </section>
 
@@ -636,7 +652,7 @@
 <section class="slide" id="title-slide">
 	<h2>Give the load to Grunt!</h2>
 	<h2>Yo</h2>
-	<a href="http://yeoman.io/"></a>
+	<a href="http://yeoman.io/">http://yeoman.io</a>
 </section>
 
 <section class="slide" id="title-slide">	
@@ -686,10 +702,6 @@
 <section class="slide" id="core-feature">
 	<h1>5. Smart Code (#easy :p)</h1>	
 </section>
-<section class="slide" id="title-slide">
-	<img  style="width:900px; height:700px;" src="images/code-12.gif">
-</section>
-
 
 <!--End of CSS-->
 
@@ -701,10 +713,10 @@
 </section>
 <section class="slide" id="title-slide">
 	<img src="images/content.png"></img>
-	<h1>HTML</h1>		
+	<h2>HTML</h2>		
 </section>
 <section class="slide" id="core-feature">
-	<h2>Reduce of DOM Elements</h2>
+	<h2>Reduce DOM Elements</h2>
 	<img src="images/htmlTree.png"></img>
 	<a href="http://www.w3.org/wiki/Traversing_the_DOM"> W3.org Traversing DOM</a>
 	<br/>
@@ -723,7 +735,7 @@
 	<h1>Optional html tags</h1>		
 </section>
 <section class="slide" id="core-feature">
-	<h2>Ommit some closing tags</h2>
+	
 	<div class="slide"><pre>&lt;p&gt;Some text
 &lt;p&gt;Some more text
 &lt;ul&gt;
@@ -815,7 +827,7 @@
 	<h1>Page Speed Automation</h1>	
 </section>
 <section class="slide" id="title-slide">
-	<h1>modPageSpeed.com</h1>		
+	<h2>modPageSpeed.com</h2>		
 </section>
 <section class="slide" id="title-slide">
 	<img src="images/lazy5.jpg">
@@ -855,7 +867,9 @@
 </section>
 <section class="slide" id="title-slide">
 	<h1>Thank you</h1>
-	<h2  class="sherifFont">http://bit.ly/1atRHzH</h2>		
+	<h2  class="sherifFont">http://bit.ly/1atRHzH</h2>	
+		<a href="http://jhankarmahbub.com">MD Khan</a> / <a href="http://twitter.com/mdkhan005">@mdkhan005</a>
+	
 </section>
 
 <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
